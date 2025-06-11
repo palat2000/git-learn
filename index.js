@@ -10,6 +10,13 @@ app.get("/", (req, res) => {
   res.send("Hello World!asdasdasdasdasd");
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello World!asdasdasdasdasd");
+});
+app.get("/", (req, res) => {
+  res.send("Hello World!asdasdasdasdasd");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
